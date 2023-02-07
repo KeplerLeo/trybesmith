@@ -10,7 +10,7 @@ export default class ProductController {
     res.status(statusCodes.CREATED).send(product);
   };
 
-  public findAll = async (req: Request, res: Response) => {
+  public findAll = async (_req: Request, res: Response) => {
     const products = await this.service.findAll();
     res.status(statusCodes.OK).send(products);
   };
