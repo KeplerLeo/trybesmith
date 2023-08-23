@@ -23,7 +23,7 @@ We had to create a RESTful API using MSC (Model-Service-Controller) architecture
 * Docker
 * MySQL
 
-## Installation and execution
+## Execution
 
 To run this application you need to have **Git**, **Docker** and **Docker Compose** installed on your machine. Docker Compose needs to be at **1.29** version or superior.
 
